@@ -1,4 +1,10 @@
 class Solution {
+    public List<String> letterCombinations(String digits) {
+        String[] arr={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+        
+        
+    }
+}class Solution {
     public List<String> letterCombinations(String digits){
         List<String> results=new ArrayList<>();
         if(digits==null || digits.isEmpty()){
